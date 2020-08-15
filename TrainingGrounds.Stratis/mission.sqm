@@ -45,8 +45,6 @@ addons[]=
 	"ace_logistics_wirecutter",
 	"ace_concertina_wire",
 	"A3_Soft_F_MRAP_01",
-	"ace_realisticnames",
-	"CUP_Editor_A2_Roads_Config",
 	"A3_Structures_F_Orange_Signs_Mines",
 	"A3_Structures_F_Mil_Shelters",
 	"acex_sitting",
@@ -62,10 +60,7 @@ addons[]=
 	"A3_Structures_F_Heli_Furniture",
 	"A3_Props_F_Enoch_Military_Equipment",
 	"A3_Misc_F_Helpers",
-	"CUP_Misc3_Config",
 	"ace_slideshow",
-	"Arcadian",
-	"tacs_variants_bwa3",
 	"A3_Soft_F_Exp_LSV_01",
 	"ace_repair",
 	"A3_Signs_F",
@@ -85,27 +80,17 @@ addons[]=
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Soft_F_Quadbike_01",
 	"A3_Air_F_Exp_Plane_Civil_01",
-	"tac_heavylifter",
-	"CUP_AirVehicles_UH60",
-	"tac_compat_cup_vehicles",
-	"tacs_variants_melb",
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"A3_Air_F_Exp_VTOL_01",
 	"A3_Structures_F_Bootcamp_VR_Helpers",
-	"CUP_AirVehciles_MH47E",
 	"A3_Structures_F_Wrecks",
 	"A3_Structures_F_Walls",
 	"A3_Structures_F_Training",
-	"CUP_CAMisc_ACR_Targets",
 	"A3_Structures_F_Exp_Walls_Wired",
-	"tac_shootingrange",
 	"A3_Props_F_Enoch_Military_Supplies",
-	"tacs_units",
-	"tacs_weapons_apex",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Structures_F_Bootcamp_Civ_Camping",
 	"A3_Boat_F_Boat_Transport_01",
-	"CUP_Wheeledvehicles_VWGolf",
 	"A3_Structures_F_Enoch_Infrastructure_Railways",
 	"A3_Structures_F_Enoch_Industrial_Mines",
 	"A3_Structures_F_Argo_Signs_Warnings",
@@ -114,8 +99,6 @@ addons[]=
 	"A3_Structures_F_EPA_Civ_Camping",
 	"A3_Structures_F_Furniture",
 	"A3_Props_F_Exp_Commercial_Market",
-	"CUP_Weapons_AmmoBoxes",
-	"CUP_Editor_Plants_Config",
 	"A3_Structures_F_Enoch_Civilian_Accessories",
 	"A3_Structures_F_Exp_Walls_Crashbarriers",
 	"A3_Structures_F_Exp_Cultural_Fortress_01",
@@ -123,29 +106,23 @@ addons[]=
 	"A3_Structures_F_EPB_Civ_Graffiti",
 	"A3_Structures_F_EPB_Items_Documents",
 	"A3_Structures_F_Naval_RowBoats",
-	"CUP_CAStructures_E_Misc_Misc_Interier",
 	"A3_Structures_F_EPB_Civ_Garbage",
 	"A3_Structures_F_Exp_Signs_Traffic",
 	"A3_Structures_F_Civ_Lamps",
 	"A3_Armor_F_Beta_APC_Wheeled_01",
 	"acre_sys_intercom",
-	"CUP_WheeledVehicles_Hilux",
 	"A3_Armor_F_Gamma_MBT_01",
 	"A3_Armor_F_EPC_MBT_01",
 	"ace_cookoff",
 	"A3_Structures_F_Civ_Constructions",
 	"A3_Props_F_Orange_Civilian_InfoBoards",
 	"A3_Structures_F_Exp_Walls_Tin",
-	"CUP_Editor_Structures_Config",
 	"A3_Structures_F_Items_Vessels",
 	"acex_field_rations",
-	"CUP_CAMisc_ACR_Shooting_range",
-	"CUP_CAStructures_E_Wall_Wall_L",
 	"A3_Structures_F_Enoch_Military_Training",
 	"A3_Structures_F_Exp_Civilian_Accessories",
 	"A3_Structures_F_Exp_Military_Fortifications",
 	"A3_Soft_F_Gamma_Van_01",
-	"CUP_Buildings_Config",
 	"A3_Boat_F_Gamma_Boat_Transport_01",
 	"A3_Structures_F_Households_Stone_Small",
 	"A3_Structures_F_Enoch_Military_Camps",
@@ -3504,7 +3481,7 @@ class Mission
 							{
 							};
 							id=1105;
-							type="tacs_Arcadian_B_Black";
+							type="C_Offroad_01_covered_F";
 							atlOffset=0.00024414063;
 							class CustomAttributes
 							{
@@ -3544,7 +3521,7 @@ class Mission
 							{
 							};
 							id=1106;
-							type="tacs_BWA3_B_Eagle_Black";
+							type="B_MRAP_01_F";
 							atlOffset=-0.028015137;
 							class CustomAttributes
 							{
@@ -7200,7 +7177,7 @@ class Mission
 							{
 							};
 							id=895;
-							type="CUP_B_UH60M_US";
+							type="B_Heli_Transport_01_F";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7239,7 +7216,7 @@ class Mission
 							{
 							};
 							id=894;
-							type="CUP_B_UH60M_US";
+							type="B_Heli_Transport_01_F";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7281,7 +7258,7 @@ class Mission
 								reportOwnPosition=1;
 							};
 							id=906;
-							type="tacs_MELB_B_AH6M_L_Theseus_Black";
+							type="B_Heli_Light_01_dynamicLoadout_F";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7342,7 +7319,7 @@ class Mission
 								reportOwnPosition=1;
 							};
 							id=907;
-							type="tacs_MELB_B_AH6M_L_Theseus_Black";
+							type="B_Heli_Light_01_dynamicLoadout_F";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7403,7 +7380,7 @@ class Mission
 								reportOwnPosition=1;
 							};
 							id=905;
-							type="tacs_MELB_B_AH6M_M_Theseus_Black";
+							type="B_Heli_Light_01_dynamicLoadout_F";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7464,7 +7441,7 @@ class Mission
 								reportOwnPosition=1;
 							};
 							id=904;
-							type="tacs_MELB_B_AH6M_M_Theseus_Black";
+							type="B_Heli_Light_01_dynamicLoadout_F";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7525,7 +7502,7 @@ class Mission
 								reportOwnPosition=1;
 							};
 							id=903;
-							type="tacs_MELB_B_AH6M_H_Theseus_Black";
+							type="B_Heli_Light_01_dynamicLoadout_F";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7586,7 +7563,7 @@ class Mission
 								reportOwnPosition=1;
 							};
 							id=902;
-							type="tacs_MELB_B_AH6M_H_Theseus_Black";
+							type="B_Heli_Light_01_dynamicLoadout_F";
 							atlOffset=-5.7220459e-006;
 							class CustomAttributes
 							{
@@ -7648,7 +7625,7 @@ class Mission
 								reportOwnPosition=1;
 							};
 							id=871;
-							type="tacs_MELB_B_MH6M_Theseus_Black";
+							type="B_Heli_Light_01_F";
 						};
 						class Item13
 						{
@@ -7667,7 +7644,7 @@ class Mission
 								reportOwnPosition=1;
 							};
 							id=868;
-							type="tacs_MELB_B_MH6M_Theseus_Black";
+							type="B_Heli_Light_01_F";
 						};
 						class Item14
 						{
@@ -10567,7 +10544,7 @@ class Mission
 										textures="tacs_Black";
 									};
 									id=2115;
-									type="tacs_BWA3_B_Eagle_Black";
+									type="B_MRAP_01_F";
 									atlOffset=0.008398056;
 									class CustomAttributes
 									{
@@ -10772,7 +10749,7 @@ class Mission
 										textures="tacs_Black";
 									};
 									id=2116;
-									type="tacs_BWA3_B_Eagle_Black";
+									type="B_MRAP_01_F";
 									atlOffset=0.0027985573;
 									class CustomAttributes
 									{
@@ -10977,7 +10954,7 @@ class Mission
 										textures="tacs_Black";
 									};
 									id=2117;
-									type="tacs_BWA3_B_Eagle_Black";
+									type="B_MRAP_01_F";
 									atlOffset=-4.7683716e-007;
 									class CustomAttributes
 									{
@@ -14594,7 +14571,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=950;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -14692,7 +14669,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=951;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									atlOffset=2.3841858e-007;
 									class CustomAttributes
 									{
@@ -14791,7 +14768,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=952;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -14889,7 +14866,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=953;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -14987,7 +14964,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=954;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -15085,7 +15062,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=955;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -15183,7 +15160,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=956;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -15281,7 +15258,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=957;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -15379,7 +15356,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=958;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									atlOffset=2.3841858e-007;
 									class CustomAttributes
 									{
@@ -15478,7 +15455,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=959;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -15576,7 +15553,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=960;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									atlOffset=2.3841858e-007;
 									class CustomAttributes
 									{
@@ -15675,7 +15652,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=961;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -15773,7 +15750,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=962;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -15871,7 +15848,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=963;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -15969,7 +15946,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=964;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16067,7 +16044,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=965;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16165,7 +16142,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=966;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16263,7 +16240,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=967;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16361,7 +16338,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=968;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16459,7 +16436,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=969;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16557,7 +16534,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=970;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16655,7 +16632,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=971;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16753,7 +16730,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=972;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16851,7 +16828,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=973;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -16949,7 +16926,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=974;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -17047,7 +17024,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=975;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -17145,7 +17122,7 @@ class Mission
 										isPlayable=1;
 									};
 									id=976;
-									type="tacs_Unit_I_Medic";
+									type="I_medic_F";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -18082,7 +18059,7 @@ class Mission
 								disableSimulation=1;
 							};
 							id=1697;
-							type="CUP_A2_Road_OA_dirt10_W10_A0_573_R1000";
+							type="";
 							atlOffset=8.1062317e-006;
 						};
 						class Item16
@@ -18100,7 +18077,7 @@ class Mission
 								disableSimulation=1;
 							};
 							id=1698;
-							type="CUP_A2_Road_OA_dirt10_W10_A0_573_R1000";
+							type="";
 							atlOffset=-4.2915344e-006;
 						};
 						class Item17
@@ -18118,7 +18095,7 @@ class Mission
 								disableSimulation=1;
 							};
 							id=1699;
-							type="CUP_A2_Road_OA_dirt10_W10_A0_573_R1000";
+							type="";
 						};
 						class Item18
 						{
@@ -18135,7 +18112,7 @@ class Mission
 								disableSimulation=1;
 							};
 							id=1700;
-							type="CUP_A2_Road_OA_dirt10_W10_A0_573_R1000";
+							type="";
 						};
 						class Item19
 						{
@@ -22425,7 +22402,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[""tacs_Walther_P99_Tan""],[2]],[[""16Rnd_9x21_green_Mag""],[15]],[[],[]],[[],[]]],false]";
+													value="[[[[""hgun_P07_F ""],[2]],[[""16Rnd_9x21_green_Mag""],[15]],[[],[]],[[],[]]],false]";
 												};
 											};
 										};
