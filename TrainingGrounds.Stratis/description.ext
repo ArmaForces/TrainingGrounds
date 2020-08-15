@@ -5,9 +5,9 @@
 #include "CfgFunctions.hpp"
 
 // Mission settings - title, description, author etc.
-OnLoadName = "Olympus";
-OnLoadMission = "Olympus Training Facilities";
-author = "Theseus Incorporated";
+OnLoadName = "Training Grounds";
+OnLoadMission = "ArmaForces Training Facilities";
+author = "ArmaForces";
 loadScreen = QPATHTOTACRF(images,olympus\OlympusLoading.paa);
 overviewPicture = QPATHTOTACRF(images,olympus\OlympusLoading.paa);
 onLoadIntroTime = 1;

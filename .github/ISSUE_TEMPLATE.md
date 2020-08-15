@@ -1,10 +1,9 @@
 **Arma 3 Version:** `x.yy` (stable / rc / dev)
-**Theseus Inc. Modpack Version:** `x.y.z`
-**Olympus Version:** `x.y.z` (stable / latest on Theseus server + date / dev + commit hash)
+**TrainingGrounds Version:** `x.y.z` (stable / latest on Armaforces server + date / dev + commit hash)
 
 **Mods:**
 ```
-- Theseus Inc. Modpack
+- ArmaForces Mods
 ```
 
 **Description:**

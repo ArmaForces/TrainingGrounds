@@ -1,5 +1,5 @@
-#define PREFIX TAC
-#define COMPONENT Olympus
+#define PREFIX AFM
+#define COMPONENT TrainingGrounds
 
 // Version
 #define MAJOR 3
