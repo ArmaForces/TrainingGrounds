@@ -18,91 +18,119 @@
 private _default = [];
 
 private _40mm = [
-    "ACE_fieldDressing",
-    "ACE_EarPlugs",
-    "V_Rangemaster_belt",
-    "arifle_Mk20_GL_plain_F",
-    "CUP_arifle_L85A2_GL",
-    "hlc_rifle_m4m203",
-    "CUP_arifle_AK101_GL",
-    "cup_optic_elcan_specterdr_black",
-    "cup_optic_eotech553_black",
-    "hlc_VOG25_AK",
     "1Rnd_HE_Grenade_shell",
-    "1Rnd_SmokeBlue_Grenade_shell",
-    "1Rnd_SmokeGreen_Grenade_shell",
-    "1Rnd_SmokeRed_Grenade_shell",
     "1Rnd_Smoke_Grenade_shell",
-    "UGL_FlareGreen_F",
+    "1Rnd_SmokeRed_Grenade_shell",
     "ACE_40mm_Flare_ir",
+    "ACE_EarPlugs",
+    "ACE_fieldDressing",
+    "arifle_Mk20_GL_plain_F",
+    "CUP_1Rnd_HE_GP25_M",
+    "CUP_1Rnd_SMOKE_GP25_M",
+    "CUP_1Rnd_SmokeRed_GP25_M",
     "CUP_1Rnd_StarFlare_Green_M203",
     "CUP_1Rnd_StarFlare_Red_M203",
+    "CUP_arifle_AK101_GL",
+    "CUP_arifle_L85A2_GL",
+    "CUP_IlumFlareGreen_GP25_M",
+    "CUP_IlumFlareRed_GP25_M",
+    "CUP_IlumFlareWhite_GP25_M",
+    "cup_optic_elcan_specterdr_black",
+    "cup_optic_eotech553_black",
+    "hlc_rifle_m4m203",
+    "NVGoggles_OPFOR",
     "tacs_Backpack_AssaultExpanded_Black",
-    "NVGoggles_OPFOR"
+    "UGL_FlareGreen_F",
+    "V_Rangemaster_belt"
 ];
 
 private _rangePistol = [
-    "ACE_fieldDressing",
     "ACE_EarPlugs",
-    "V_Rangemaster_belt",
+    "ACE_fieldDressing",
+    "tacgt_17Rnd_9x19mm_Walther_Ball",
     "tacs_Walther_P99",
-    "16Rnd_9x21_Mag"
+    "V_Rangemaster_belt"
 ];
 
 private _rangeRifle = [
-    "ACE_fieldDressing",
     "ACE_EarPlugs",
-    "V_Rangemaster_belt",
+    "ACE_fieldDressing",
     "CUP_arifle_M4A1_black",
-    "30Rnd_556x45_Stanag_green"
+    "tacgt_30Rnd_556x45_Ball_EMAG",
+    "V_Rangemaster_belt"
 ];
 
-private _demolitions = [
-    "ACE_fieldDressing",
-    "ACE_EarPlugs",
-    "tacs_Backpack_Carryall_DarkBlack",
-    "H_HelmetSpecB",
-    "V_EOD_blue_F",
-    "ACE_DefusalKit",
-    "ACE_M26_Clacker",
+private _engineer = [
     "ACE_Clacker",
+    "ACE_DefusalKit",
+    "ACE_EarPlugs",
+    "ACE_fieldDressing",
+    "ACE_M26_Clacker",
+    "ACE_UAVBattery",
     "ACE_wirecutter",
-    "DemoCharge_Remote_Mag",
-    "ATMine_Range_Mag",
-    "SatchelCharge_Remote_Mag",
-    "ClaymoreDirectionalMine_Remote_Mag",
-    "APERSBoundingMine_Range_Mag",
-    "SLAMDirectionalMine_Wire_Mag",
-    "APERSTripMine_Wire_Mag",
-    "APERSMine_Range_Mag",
     "AMP_Breaching_Charge_Mag",
+    "DemoCharge_Remote_Mag",
+    "H_HelmetSpecB",
+    "I_UavTerminal",
+    "I_UGV_02_Demining_backpack_F",
+    "SatchelCharge_Remote_Mag",
+    "tacs_Backpack_Carryall_DarkBlack",
+    "tacs_Vest_PlateCarrier_Green",
     "ToolKit"
 ];
 
 private _grenade = [
-    "ACE_fieldDressing",
     "ACE_EarPlugs",
-    "V_Rangemaster_belt",
+    "ACE_fieldDressing",
+    "HandGrenade",
     "tacs_Backpack_AssaultExpanded_Black",
-    "HandGrenade"
+    "V_Rangemaster_belt"
 ];
 
 private _launcher = [
-    "ACE_fieldDressing",
     "ACE_EarPlugs",
+    "ACE_fieldDressing",
     "CUP_launch_M136",
-    "launch_RPG7_F",
-    "CUP_PG7V_M",
+    "CUP_launch_RPG7V",
+    "CUP_OG7_M",
+    "cup_optic_pgo7v3",
+    "CUP_PG7VM_M",
+    "CUP_PG7VR_M",
+    "launch_MRAWS_green_F",
     "launch_MRAWS_green_rail_F",
     "launch_NLAW_F",
     "launch_RPG32_green_F",
     "MRAWS_HEAT_F",
-    "tacs_Backpack_Carryall_DarkBlack",
-    "RPG32_F"
+    "RPG32_F",
+    "tacgt_rpag_2",
+    "tacs_Backpack_Carryall_DarkBlack"
 ];
 
 private _medical = [
+    "ACE_adenosine",
+    "ACE_atropine",
+    "ACE_bloodIV_250",
+    "ACE_bloodIV_500",
+    "ACE_bloodIV",
+    "ACE_bodyBag",
     "ACE_EarPlugs",
+    "ACE_elasticBandage",
+    "ACE_epinephrine",
+    "ACE_fieldDressing",
+    "ACE_morphine",
+    "ACE_packingBandage",
+    "ACE_painkillers",
+    "ACE_personalAidKit",
+    "ACE_plasmaIV_250",
+    "ACE_plasmaIV_500",
+    "ACE_plasmaIV",
+    "ACE_quikclot",
+    "ACE_salineIV_250",
+    "ACE_salineIV_500",
+    "ACE_salineIV",
+    "ACE_splint",
+    "ACE_surgicalKit",
+    "ACE_tourniquet",
     "tacs_Backpack_Kitbag_Medic_Black",
     "tacs_Backpack_Kitbag_Medic_Coyote",
     "tacs_Backpack_Kitbag_Medic_Digital",
@@ -110,69 +138,45 @@ private _medical = [
     "tacs_Backpack_Kitbag_Medic_MTP",
     "tacs_Backpack_Kitbag_Medic_Sage",
     "tacs_Backpack_Kitbag_Medic_Tan",
-    "tacs_Backpack_Kitbag_Medic_White",
-    "ACE_adenosine",
-    "ACE_atropine",
-    "ACE_fieldDressing",
-    "ACE_elasticBandage",
-    "ACE_quikclot",
-    "ACE_bloodIV",
-    "ACE_bloodIV_250",
-    "ACE_bloodIV_500",
-    "ACE_bodyBag",
-    "ACE_epinephrine",
-    "ACE_morphine",
-    "ACE_packingBandage",
-    "tac_medical_painkillers",
-    "ACE_personalAidKit",
-    "ACE_plasmaIV",
-    "ACE_plasmaIV_250",
-    "ACE_plasmaIV_500",
-    "ACE_salineIV",
-    "ACE_salineIV_250",
-    "ACE_salineIV_500",
-    "ACE_splint",
-    "ACE_surgicalKit",
-    "ACE_tourniquet"
+    "tacs_Backpack_Kitbag_Medic_White"
 ];
 
 private _machineGun = [
-    "ACE_fieldDressing",
     "ACE_EarPlugs",
-    "V_Rangemaster_belt",
-    "hlc_m249_pip1",
-    "hlc_200rnd_556x45_M_SAW",
-    "bwa3_optic_compm2",
+    "ACE_fieldDressing",
     "cup_optic_elcanm145",
-    "bwa3_optic_zo4x30_microt2",
-    "tacs_Backpack_Carryall_DarkBlack"
+    "hlc_m249_pip1",
+    "tacgt_200Rnd_556x45_Ball_Belt",
+    "tacgt_200Rnd_556x45_Ball_Tracer_Belt",
+    "tacs_Backpack_Carryall_DarkBlack",
+    "V_Rangemaster_belt"
 ];
 
 private _marksman = [
-    "ACE_fieldDressing",
     "ACE_EarPlugs",
-    "arifle_MXM_Black_F",
-    "30Rnd_65x39_caseless_black_mag",
-    "optic_hamr",
-    "srifle_DMR_03_F",
-    "20Rnd_762x51_Mag",
-    "optic_mrco",
+    "ACE_fieldDressing",
     "ace_optic_mrco_2d",
-    "tacs_EBR_Black_F",
-    "cup_optic_elcan",
-    "V_Rangemaster_belt",
+    "ACE_RangeCard",
     "ACE_Vector",
-    "ACE_RangeCard"
+    "arifle_MXM_Black_F",
+    "cup_optic_elcan",
+    "optic_hamr",
+    "optic_mrco",
+    "srifle_DMR_03_F",
+    "tacgt_20Rnd_762x51_Ball",
+    "tacgt_30Rnd_65x39_Ball_MX_Black",
+    "tacs_EBR_Black_F",
+    "V_Rangemaster_belt"
 ];
 
 private _weaponsHandling = [
-    "ACE_fieldDressing",
     "ACE_EarPlugs",
-    "V_Rangemaster_belt",
+    "ACE_fieldDressing",
     "CUP_arifle_M4A1_black",
-    "30Rnd_556x45_Stanag_green",
+    "tacgt_17Rnd_9x19mm_Walther_Ball",
+    "tacgt_30Rnd_556x45_Ball_EMAG",
     "tacs_Walther_P99",
-    "16Rnd_9x21_Mag"
+    "V_Rangemaster_belt"
 ];
 
 // Init stuff
@@ -187,7 +191,7 @@ switch (_type) do {
     case "marksman": { _chosen = _marksman; };
     case "rangePistol": { _chosen = _rangePistol; };
     case "rangeRifle": { _chosen = _rangeRifle; };
-    case "demolitions": { _chosen = _demolitions; };
+    case "engineer": { _chosen = _engineer; };
     case "grenade": { _chosen = _grenade; };
     case "launcher": { _chosen = _launcher; };
     case "machineGun": { _chosen = _machineGun; };

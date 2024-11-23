@@ -8,6 +8,7 @@
 OnLoadName = "Training Grounds";
 OnLoadMission = "ArmaForces Training Facilities";
 author = "ArmaForces";
+tac_type = 2; // Training, Required even if OCAP isn't loaded from Functions Library.
 loadScreen = QPATHTOTACRF(images,olympus\OlympusLoading.paa);
 overviewPicture = QPATHTOTACRF(images,olympus\OlympusLoading.paa);
 onLoadIntroTime = 1;
@@ -28,8 +29,13 @@ respawnDialog = 0;
 
 // AI & debug
 disabledAI = 1;  // Disables AI for Playable Units
-enableDebugConsole[] = {"76561198048995566", "76561198085500182"};  // Enables Debug Console for players with specified UIDs (Jonpas and Tyrone) and Host/Admin
+enableDebugConsole[] = {DEBUG_ADMINS};
 enableTargetDebug = 1;
 
 // Other settings
 cba_settings_hasSettingsFile = 1;  // Enables use of "cba_settings.sqf", remove if file is not present (will crash)
+
+// Disable unused Chat Channels
+disableChannels[] = {
+    {2, true, true} // Command
+};

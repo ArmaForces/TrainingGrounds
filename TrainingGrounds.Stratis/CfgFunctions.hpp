@@ -15,7 +15,6 @@ class CfgFunctions {
             class rangeMarksmanTargetGroups;
             class resetDamagedObjects;
             class setBasicLoadout;
-            class spawnDemolitionsVehicle;
             class vehicleSpawner;
         };
     };
@@ -30,6 +29,7 @@ class CfgFunctions {
             class specific_projectileTypeActions;
             class specific_severityActions;
             class applyRandomDamage;
+            class instructorDisplay;
         };
     };
 };

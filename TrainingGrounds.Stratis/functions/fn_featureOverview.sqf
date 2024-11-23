@@ -22,15 +22,27 @@ _player createDiaryRecord ["features", ["Environment Controller", "
     <br/>The main base and some courses have an additional laptop to control the environment.
 "]];
 
-_player createDiaryRecord ["features", ["Vehicle Spawner", "
+_player createDiaryRecord ["features", ["Vehicle Spawners", "
     <br/><img image='x\tacr\addons\images\olympus\feature\vehicleSpawn.jpg' width='300' height='350'/>
-    <br/>The main base has a <marker name = 'tac_olympus_vehicleSpawnerMarker'>vehicle spawner</marker> that allows you to spawn and delete various vehicles.
+    <br/>The main base has a <marker name = 'TAC_Olympus_vehicleSpawnerMarker'>vehicle spawner</marker> that allows you to spawn and delete various ground vehicles.
+    <br/>Additionally there is a maritime vehicle spawner on the dock.
+    <br/>The airfield also has 2 spawners for aircraft; they are functionally the same.
 "]];
 
 _player createDiaryRecord ["features", ["Chat Commands", "
     <br/><font color='#E3D310'>#tac-heal:</font color>
     <br/>Type `#tac-heal` in chat to heal yourself.
     <br/>If you want to heal someone else, type `#tac-heal John Doe`.
+    <br/>
+    <br/><font color='#E3D310'>#tac-fix:</font color>
+    <br/>Type `#tac-fix` in chat to repair, refuel and rearm the vehicle you are looking at.
+    <br/>
+    <br/><font color='#E3D310'>#tac-cleanup:</font color>
+    <br/>Type `#tac-cleanup` in chat to delete any items on the ground in a 10m range.
+    <br/>To extend the cleanup range type `#tac-cleanup <NUMBER>` in chat (number in meters between 1 and 100 meters).
+    <br/>
+    <br/><font color='#E3D310'>#tac-grenade-reset:</font color>
+    <br/>Type `#tac-grenade-reset` in chat to reset the grenade building.
 "]];
 
 _player createDiaryRecord ["features", ["Arsenals", "
